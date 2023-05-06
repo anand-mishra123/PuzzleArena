@@ -141,7 +141,8 @@ const router = createBrowserRouter([
 export default function App() {
   return (
     <main>
-        <RouterProvider router={router}></RouterProvider>
+        {/* <RouterProvider router={router}></RouterProvider> */}
+        <LandingPage/>
     </main>
   )
 }

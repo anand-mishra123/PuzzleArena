@@ -34,7 +34,7 @@
     "zustand": "^4.3.6"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start --location=global",
     "build": "react-scripts --openssl-legacy-provider build"
   },
   "eslintConfig": {
